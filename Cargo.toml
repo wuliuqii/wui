@@ -1,0 +1,23 @@
+[package]
+name = "wui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+bytemuck = { version = "1.20.0", features = ["derive"] }
+derive_more = { version = "1.0.0", features = [
+  "add",
+  "add_assign",
+  "mul",
+  "mul_assign",
+] }
+pollster = "0.4.0"
+serde = "1.0.215"
+serde_json = "1.0.133"
+wgpu = "23.0.1"
+
+# debug only, will be removed later
+png = "0.17.14"
+futures = "0.3.31"
+futures-intrusive = "0.5.0"
