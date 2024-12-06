@@ -8,18 +8,18 @@ WUI is my hobby project to learn Rust, Wgpu, Wayland and UI programming. It is i
 
 ## Planning
 
-- [] Renderer
-  - [] Quad
-  - [] Text
-  - [] Image
-  - [] ...
-- [] Wayland Window
-- [] UI Elements
-- [] Application
-  - [] Service(Bluetooth, Network, ...)
-  - [] Status Bar
-  - [] Launcher
-  - ...
+- Renderer
+  - [x] Quad
+  - [ ] Text
+  - [ ] Image
+  - [ ] ...
+- [ ] Wayland Window
+- [ ] UI Elements
+- [ ] Application
+  - [ ] Service(Bluetooth, Network, ...)
+  - [ ] Status Bar
+  - [ ] Launcher
+  - [ ] ...
 
 ## Inspirations
 
